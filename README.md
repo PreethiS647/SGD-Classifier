@@ -20,6 +20,7 @@ Developed by: Preethi S
 RegisterNumber: 212223230157 
 */
 ```
+```
 import pandas as pd
 from sklearn.datasets import load_iris
 from sklearn.linear_model import SGDClassifier
@@ -42,14 +43,14 @@ sgd_clf.fit(X_train,y_train)
 y_pred = sgd_clf.predict(X_test)
 accuracy = accuracy_score(y_test,y_pred)
 print(f"Accuracy: {accuracy:.3f}")
-
+```
 ![image](https://github.com/user-attachments/assets/d4012741-0895-4a10-92f9-685d8c114354)
 
-
+```
 cm = confusion_matrix(y_test, y_pred)
 print("Confusion Matrix: ")
 print(cm)
-
+```
 ![image](https://github.com/user-attachments/assets/671a61de-57d5-41ed-a97e-ccb51427f0ae)
 
 
