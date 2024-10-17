@@ -31,7 +31,7 @@ df=pd.DataFrame(data=iris.data,columns = iris.feature_names)
 df['target']=iris.target
 print(df.head())
 ```
-```
+
 ![image](https://github.com/user-attachments/assets/71e922ba-6b9f-40f0-bbdb-f9a5540b3983)
 ```
 ```
